@@ -142,7 +142,6 @@ if __name__ == '__main__':
     populate()
     #while 1:
     #    print make_markov_sentence(10, seed='the')
-    print make_rho_sentence(30)
     for i in range(10):
         print make_rho_sentence(30)
     print make_canonical_sentence(20)
